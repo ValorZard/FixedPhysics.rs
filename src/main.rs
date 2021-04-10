@@ -25,4 +25,8 @@ fn main() {
 
     let vec2 = Vector2::from_float(0.66, -0.8);
     println!("{}", vec2);
+
+    let vec3 = Vector2::from_int(3, 4);
+
+    println!("For the Vector {0}, the length is {1}, and normalized is {2}", vec3, vec3.length(), vec3.normalized());
 }

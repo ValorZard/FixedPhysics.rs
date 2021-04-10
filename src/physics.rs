@@ -1,1 +1,1 @@
-mod structs;
+pub mod structs;
